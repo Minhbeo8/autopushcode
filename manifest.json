@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "VSPhone Auto Redeemer",
+  "version": "1.1",
+  "description": "Tự động nhập và gia hạn/quy đổi mã cho VSPhone.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "host_permissions": [
+    "*://cloud.vsphone.net/*"
+  ]
+}
